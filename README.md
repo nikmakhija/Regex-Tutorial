@@ -1,10 +1,11 @@
-# Regex-Tutorial
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+GIVEN a regex tutorial
+WHEN I open the tutorial
+THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
+WHEN I click on the links in the table of contents
+THEN I am taken to the corresponding sections of the tutorial
+WHEN I read through each section of the tutorial
+THEN I find a detailed explanation of what a specific component of the regex does
+WHEN I reach the end of the tutorial
+THEN I find a section about the author and a link to the author’s GitHub profile
+
+What Is a Regex?
